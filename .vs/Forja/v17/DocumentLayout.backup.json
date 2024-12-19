@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Christian\\source\\repos\\Forja\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\services\\anelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:services\\anelservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\dtos\\leraneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:dtos\\leraneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\dtos\\editaraneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:dtos\\editaraneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\dtos\\criaraneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:dtos\\criaraneldto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\controllers\\anelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:controllers\\anelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|c:\\users\\christian\\source\\repos\\forja\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{82CDC0FF-9A78-4ABB-9C3C-71652E0935DB}|Forja.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T01:03:46.782Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AnelService.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\Services\\AnelService.cs",
+              "RelativeDocumentMoniker": "Services\\AnelService.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\Services\\AnelService.cs",
+              "RelativeToolTip": "Services\\AnelService.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAMwGsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T02:57:29.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LerAnelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\DTOs\\LerAnelDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\LerAnelDTO.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\DTOs\\LerAnelDTO.cs",
+              "RelativeToolTip": "DTOs\\LerAnelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:08:00.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EditarAnelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\DTOs\\EditarAnelDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\EditarAnelDTO.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\DTOs\\EditarAnelDTO.cs",
+              "RelativeToolTip": "DTOs\\EditarAnelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:08:00.022Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CriarAnelDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\DTOs\\CriarAnelDTO.cs",
+              "RelativeDocumentMoniker": "DTOs\\CriarAnelDTO.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\DTOs\\CriarAnelDTO.cs",
+              "RelativeToolTip": "DTOs\\CriarAnelDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:07:59.174Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AnelController.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\Controllers\\AnelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnelController.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\Controllers\\AnelController.cs",
+              "RelativeToolTip": "Controllers\\AnelController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:07:56.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T02:45:35.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Christian\\source\\repos\\Forja\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\Christian\\source\\repos\\Forja\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAwAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T01:02:32.645Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
