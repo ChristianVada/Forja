@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using static WebApplication2.AnelService;
+using static Forja.src.AnelService;
 
-namespace WebApplication2
+namespace Forja.src
 {
     [ApiController]
     [Route("api/[controller]")]
@@ -24,7 +24,7 @@ namespace WebApplication2
             {
                 return Ok(_anelService.Criar(anel));
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -37,7 +37,7 @@ namespace WebApplication2
             {
                 return Ok(_anelService.Atualizar(id, anel));
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }
@@ -51,7 +51,7 @@ namespace WebApplication2
                 _anelService.Deletar(id);
                 return NoContent();
             }
-            catch (System.Exception ex)
+            catch (Exception ex)
             {
                 return BadRequest(ex.Message);
             }

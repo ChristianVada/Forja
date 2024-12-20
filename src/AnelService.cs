@@ -1,4 +1,4 @@
-﻿namespace WebApplication2
+﻿namespace Forja.src
 {
     public class AnelService : IAnelService
     {
@@ -14,12 +14,12 @@
         public AnelEntity Criar(AnelEntity anel)
         {
             var quantidade = _context.Aneis.Count(a => a.ForjadoPor == anel.ForjadoPor);
-            if ((anel.ForjadoPor == Forjador.Elfos && quantidade >= 3) ||
-                (anel.ForjadoPor == Forjador.Anoes && quantidade >= 7) ||
-                (anel.ForjadoPor == Forjador.Homens && quantidade >= 9) ||
-                (anel.ForjadoPor == Forjador.Sauron && quantidade >= 1))
+            if (anel.ForjadoPor == Forjador.Elfos && quantidade >= 3 ||
+                anel.ForjadoPor == Forjador.Anoes && quantidade >= 7 ||
+                anel.ForjadoPor == Forjador.Homens && quantidade >= 9 ||
+                anel.ForjadoPor == Forjador.Sauron && quantidade >= 1)
             {
-                throw new System.Exception("Limite de anéis para " + anel.ForjadoPor + " atingido.");
+                throw new Exception("Limite de anéis para " + anel.ForjadoPor + " atingido.");
             }
 
             _context.Aneis.Add(anel);
@@ -30,7 +30,7 @@
         public AnelEntity Atualizar(int id, AnelEntity anel)
         {
             var anelExistente = _context.Aneis.Find(anel.Id);
-            if (anelExistente == null) throw new System.Exception("Anel não encontrado.");
+            if (anelExistente == null) throw new Exception("Anel não encontrado.");
 
             anelExistente.Nome = anel.Nome;
             anelExistente.Poder = anel.Poder;
@@ -45,7 +45,7 @@
         public void Deletar(int id)
         {
             var anel = _context.Aneis.Find(id);
-            if (anel == null) throw new System.Exception("Anel não encontrado.");
+            if (anel == null) throw new Exception("Anel não encontrado.");
 
             _context.Aneis.Remove(anel);
             _context.SaveChanges();

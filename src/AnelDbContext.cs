@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 
-namespace WebApplication2
+namespace Forja.src
 {
     public class AnelDbContext : DbContext
     {
