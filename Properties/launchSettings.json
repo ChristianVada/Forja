@@ -4,17 +4,17 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:5550",
-      "sslPort": 44349
+      "applicationUrl": "http://localhost:44038",
+      "sslPort": 44317
     }
   },
   "profiles": {
-    "Forja": {
+    "WebApplication2": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
       "launchUrl": "swagger",
-      "applicationUrl": "https://localhost:7063;http://localhost:5219",
+      "applicationUrl": "https://localhost:7136;http://localhost:5019",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

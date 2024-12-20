@@ -1,32 +1,38 @@
-using Forja.Data;
-using Forja.Services;
+using System;
 using Microsoft.EntityFrameworkCore;
+using WebApplication2;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionString));
+builder.Services.AddDbContext<AnelDbContext>(options => options.UseSqlServer(connectionString));
 
-builder.Services.AddScoped<AnelService>();
+builder.Services.AddScoped<IAnelService, AnelService>();
+builder.Services.AddControllersWithViews();
+builder.Services.AddRazorPages();
 
-builder.Services.AddControllers();
-builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-	app.UseSwagger();
-	app.UseSwaggerUI();
+    app.UseDeveloperExceptionPage();
 }
 
-app.UseHttpsRedirection();
+app.UseSwagger();  
+app.UseSwaggerUI(c =>  
+{
+    c.SwaggerEndpoint("/swagger/v1/swagger.json", "API V1");
+    c.RoutePrefix = "swagger";
+});
 
-app.UseAuthorization();
+app.UseRouting();
 
-app.MapControllers();
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapControllers();
+    endpoints.MapRazorPages();
+});
 
 app.Run();
